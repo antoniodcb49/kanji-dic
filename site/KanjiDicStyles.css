@@ -1,0 +1,10 @@
+body {
+    background-color: skyblue;
+    font-family: sans-serif;
+}
+p {
+    background-color: white;
+    border: 1px solid black;
+    box-sizing:border-box;
+    width: 300px;
+}

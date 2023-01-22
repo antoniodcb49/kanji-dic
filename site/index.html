@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kanji Dictionary</title>
+        <link rel="stylesheet" href="KanjiDicStyles.css" />
+    </head>
+    <body>
+        <h1>Kanji Dictionary</h1>
+        <input type="text-box" autofocus id="search">
+        <button onclick="printDefinitions(document.getElementById('search').value)">Search</button>
+        <button onclick="clearResults()">Clear</button>
+        <p id="search_results"></p>
+        <script type="module">
+            import {getDefinition} from './KanjiDefinitions.js';
+            let defEntries = ["Kodansha Entry: ", "Kanji: ", "Jisho.org: ", 
+                "Kodansha: ", "JLPT: ", "Grade: "];
+
+            window.printDefinitions = function (kanji) {
+                let definitions = getDefinition(kanji);
+
+                if (definitions != null) {
+                    for (let ind in definitions) {
+                        document.getElementById('search_results').innerHTML += 
+                            defEntries[ind] + definitions[ind] + '<br>';
+                    }
+                }
+                else
+                    document.getElementById('search_results').innerHTML = "NOT FOUND";
+            window.clearResults = function () {
+                document.getElementById("search_results").innerHTML = "";
+            }
+        }
+            
+        </script>
+    </body>
+</html>
