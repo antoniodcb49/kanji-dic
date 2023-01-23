@@ -2304,13 +2304,19 @@ function dicToArray () {
     return kanjiDic.split('\n');   
 }
 
-export function getDefinition (kanji) {
+export function getDefinition (japWord) {
     let kanjiDicArray = kanjiDic.split('\n'); 
+    let definitions = [];
+    
     for (let entry in kanjiDicArray) {
         let entryArray = kanjiDicArray[entry].split('_');
-        if (kanji == entryArray[1]) {
-            return entryArray;
+
+        for (let char in japWord) {
+            if (japWord.at(char) == entryArray[1]) {
+                definitions.push(entryArray);
+
+            }
         }
     }
-    return null;
+    return definitions;
 }

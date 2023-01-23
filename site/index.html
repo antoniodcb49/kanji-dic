@@ -17,13 +17,17 @@
             let defEntries = ["Kodansha Entry: ", "Kanji: ", "Jisho.org: ", 
                 "Kodansha: ", "JLPT: ", "Grade: "];
 
-            window.printDefinitions = function (kanji) {
-                let definitions = getDefinition(kanji);
+            window.printDefinitions = function (japWord) {
+                //Array of valid definitions
+                let definitions = getDefinition(japWord);
 
                 if (definitions != null) {
-                    for (let ind in definitions) {
-                        document.getElementById('search_results').innerHTML += 
-                            defEntries[ind] + definitions[ind] + '<br>';
+                    for (let def in definitions) {
+                        for (let index in definitions[def]) {
+                            document.getElementById('search_results').innerHTML += 
+                                defEntries[index] + definitions[def][index] + '<br>';
+                        }
+                        document.getElementById('search_results').innerHTML += '<br>';
                     }
                 }
                 else
