@@ -13,13 +13,13 @@
         <button onclick="clearResults()">Clear</button>
         <p id="search_results"></p>
         <script type="module">
-            import {getDefinition} from './KanjiDefinitions.js';
+            import {getDefinitions} from './KanjiDefinitions.js';
             let defEntries = ["Kodansha Entry: ", "Kanji: ", "Jisho.org: ", 
                 "Kodansha: ", "JLPT: ", "Grade: "];
 
             window.printDefinitions = function (japWord) {
                 //Array of valid definitions
-                let definitions = getDefinition(japWord);
+                let definitions = getDefinitions(japWord);
 
                 if (definitions != null) {
                     for (let def in definitions) {
