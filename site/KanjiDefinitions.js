@@ -21,3 +21,38 @@ export function getDefinitions (japWord) {
     }
     return definitions;
 }
+
+let defEntries = ["Kodansha Entry: ", "Kanji: ", "Jisho.org: ", 
+"Kodansha: ", "JLPT: ", "Grade: "];
+
+export function printDefinitions (japWord) {
+    //Array of valid definitions
+    let definitions = getDefinitions(japWord);
+
+    if (definitions != null) {
+        for (let def in definitions) {
+            for (let index in definitions[def]) {
+                document.getElementById('search_results').innerHTML += 
+                    defEntries[index] + definitions[def][index] + '<br>';
+            }
+            document.getElementById('search_results').innerHTML += '<br>';
+        }
+    }
+    else
+        document.getElementById('search_results').innerHTML = "NOT FOUND";
+}
+
+document.getElementById('search').addEventListener('keypress', function(event) {
+    let keyPressed = event.code;
+    if (keyPressed.includes('Enter')) {
+        printDefinitions(document.getElementById('search').value);
+    }
+})
+
+document.getElementById('search-btn').addEventListener('click', function() {
+    printDefinitions(document.getElementById('search').value);
+})
+
+document.getElementById('clear-btn').addEventListener('click', function() {
+    document.getElementById("search_results").innerHTML = "";
+})

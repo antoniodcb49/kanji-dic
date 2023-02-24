@@ -9,34 +9,9 @@
     <body>
         <h1>Kanji Dictionary</h1>
         <input type="text-box" autofocus id="search">
-        <button onclick="printDefinitions(document.getElementById('search').value)">Search</button>
-        <button onclick="clearResults()">Clear</button>
+        <button id="search-btn">Search</button>
+        <button id="clear-btn">Clear</button>
         <p id="search_results"></p>
-        <script type="module">
-            import {getDefinitions} from './KanjiDefinitions.js';
-            let defEntries = ["Kodansha Entry: ", "Kanji: ", "Jisho.org: ", 
-                "Kodansha: ", "JLPT: ", "Grade: "];
-
-            window.printDefinitions = function (japWord) {
-                //Array of valid definitions
-                let definitions = getDefinitions(japWord);
-
-                if (definitions != null) {
-                    for (let def in definitions) {
-                        for (let index in definitions[def]) {
-                            document.getElementById('search_results').innerHTML += 
-                                defEntries[index] + definitions[def][index] + '<br>';
-                        }
-                        document.getElementById('search_results').innerHTML += '<br>';
-                    }
-                }
-                else
-                    document.getElementById('search_results').innerHTML = "NOT FOUND";
-            window.clearResults = function () {
-                document.getElementById("search_results").innerHTML = "";
-            }
-        }
-            
-        </script>
+        <script type="module" src="KanjiDefinitions.js"></script>
     </body>
 </html>
