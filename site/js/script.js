@@ -1,6 +1,13 @@
 import { ajaxUtils } from './ajax-utils.js';
 
-let kanjiDicArray = "";
+let dictionaryFileName = 'kanji-dictionary.txt';
+let kanjiDicArray = [];
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    getDictionary(dictionaryFileName);  
+});
+
+
 function getDictionary (dictionaryFileName) {
     ajaxUtils.sendGetRequest('./dictionary/' + dictionaryFileName, 
         function(allDefinitions) {
@@ -8,22 +15,22 @@ function getDictionary (dictionaryFileName) {
         }, false);
 }
 
-export function getDefinitions (japWord) {
-    getDictionary('kanji-dictionary.txt');
+export function getDefinitions (japaneseWord) {
     let definitions = [];
-    
+    japaneseWord = japaneseWord.trim();
+
     for (let entry of kanjiDicArray) {
         let entryArray = entry.split('_');
 
-        for (let char in japWord) {
-            if (japWord.at(char) == entryArray[1]) {
+        for (let char in japaneseWord) {
+            if (japaneseWord.at(char) == entryArray[1]) {
                 definitions.push(entryArray);
             }
         }
 
         definitions.sort((a, b) => {
-            let aIndex = japWord.indexOf(a[1]);
-            let bIndex = japWord.indexOf(b[1]);
+            let aIndex = japaneseWord.indexOf(a[1]);
+            let bIndex = japaneseWord.indexOf(b[1]);
             return aIndex - bIndex;
         })
     }
@@ -33,21 +40,29 @@ export function getDefinitions (japWord) {
 let defEntries = ["Kodansha Entry: ", "Kanji: ", "Jisho.org: ", 
 "Kodansha: ", "JLPT: ", "Grade: "];
 
-export function printDefinitions (japWord) {
+export function printDefinitions (japaneseWord) {
     //Array of valid definitions
-    let definitions = getDefinitions(japWord);
+    let definitions = getDefinitions(japaneseWord);
+    let search_results = document.getElementById('search_results');
 
     if (definitions != null) {
         for (let def in definitions) {
             for (let index in definitions[def]) {
-                document.getElementById('search_results').innerHTML += 
+                search_results.innerHTML += 
                     defEntries[index] + definitions[def][index] + '<br>';
             }
-            document.getElementById('search_results').innerHTML += '<br>';
+            search_results.innerHTML += '<br>';
         }
+        let linkToJisho = document.createElement('a');
+        linkToJisho.setAttribute('id', 'jisho-link');
+        linkToJisho.setAttribute('href', 'https://jisho.org/search/' + japaneseWord);
+        linkToJisho.setAttribute('target', '_blank');
+        linkToJisho.innerText = 'Link to Jisho';
+        search_results.appendChild(linkToJisho);
+        search_results.innerHTML += '<br>';
     }
     else
-        document.getElementById('search_results').innerHTML = "NOT FOUND";
+        search_results.innerHTML = "NOT FOUND";
 }
 
 document.getElementById('search').addEventListener('keypress', function(event) {
