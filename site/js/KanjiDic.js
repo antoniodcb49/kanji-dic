@@ -2299,4 +2299,11 @@ export let kanjiDic = `2_一_one_One_5_J1
 1011_錘_weight, plumb bob, sinker, spindle_Spindle_1_JX
 1793_髭_beard, mustache_Beard, mustache_0_JX
 2263_鼠_rat, mouse, dark gray_Rat, mouse_0_JX
----_汲_draw (water), ladle, scoop, pump_---_0_JMY`
+---_汲_draw (water), ladle, scoop, pump_---_0_JMY
+---_祟_curse, haunt_---_0_JX
+---_麝_musk deer_---_0_JX
+---_蕩_melt, be charmed, captivated_---_0_JX
+---_矮_low, short_---_0_JX
+---_冴_be clear, serene, cold, skilful_---_1_JMY
+---_晦_dark, disappear_---_0_JMY
+---_秤_balances, scales, steelyard_---_0_JMY`
