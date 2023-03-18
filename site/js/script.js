@@ -1,25 +1,12 @@
-import { ajaxUtils } from './ajax-utils.js';
+import { kanjiDic } from './KanjiDic.js';
 
-let dictionaryFileName = 'kanji-dictionary.txt';
-let kanjiDicArray = [];
-
-document.addEventListener("DOMContentLoaded", function(event) {
-    getDictionary(dictionaryFileName);  
-});
-
-
-function getDictionary (dictionaryFileName) {
-    ajaxUtils.sendGetRequest('./dictionary/' + dictionaryFileName, 
-        function(allDefinitions) {
-            kanjiDicArray = allDefinitions.split('\n');
-        }, false);
-}
+let kanjiDictionary = kanjiDic.split('\n');
 
 export function getDefinitions (japaneseWord) {
     let definitions = [];
     japaneseWord = japaneseWord.trim();
 
-    for (let entry of kanjiDicArray) {
+    for (let entry of kanjiDictionary) {
         let entryArray = entry.split('_');
 
         for (let char in japaneseWord) {
@@ -66,8 +53,7 @@ export function printDefinitions (japaneseWord) {
 }
 
 document.getElementById('search').addEventListener('keypress', function(event) {
-    let keyPressed = event.code;
-    if (keyPressed.includes('Enter')) {
+    if (event.key == 'Enter') {
         printDefinitions(document.getElementById('search').value);
     }
 })
