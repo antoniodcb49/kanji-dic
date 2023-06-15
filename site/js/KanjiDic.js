@@ -47,7 +47,7 @@ export let kanjiDic = `2_一_one_One_5_J1
 103_校_exam, school, printing, proof, correction_School – Proofread_5_J1
 241_森_forest, woods_Thick Woods_4_J1
 43_正_correct, justice, righteous, 10**40_Right, upright, correct, exact_4_J1
-126_気_spirit, mind, air, atmosphere, mood_Gas – Spirit_5_J1
+126_気_spirit, mind_Gas – Spirit_5_J1
 27_水_water_Water_5_J1
 26_火_fire_Fire_5_J1
 293_犬_dog_Dog_4_J1
@@ -308,7 +308,7 @@ export let kanjiDic = `2_一_one_One_5_J1
 1556_息_breath, respiration, son, interest (on money)_Breath_3_J3
 546_悪_bad, vice, rascal, false, evil, wrong_Bad_4_J3
 1856_悲_grieve, sad, deplore, regret_Sad_3_J3
-683_想_concept, think, idea, thought_Conceive, think _3_J3
+683_想_concept, think, idea, thought_Conceive, think_3_J3
 151_意_idea, mind, heart, taste, thought, desire, care, liking_Mind, thoughts, opinion, will – Meaning, sense_4_J3
 327_感_emotion, feeling, sensation_Sense, feel_3_J3
 249_所_place_Place, point, part – Particle of Nominalization, “-ation”_4_J3
@@ -670,8 +670,8 @@ export let kanjiDic = `2_一_one_One_5_J1
 186_圧_pressure, push, overwhelm, oppress, dominate_Pressure, overwhelm_2_J5
 406_在_exist, outskirts, suburbs, located in_Be, reside_3_J5
 394_均_level, average_Equal, even, uniform_2_J5
+485_基_fundamentals, radical (chem), counter for machines, foundation_Base, foundation_2_J5
 1472_報_report, news, reward, retribution_Report – Requite_3_J5
-485_塞_fundamentals, radical (chem), counter for machines, foundation_Plug Up, obstruct_2_J5
 1548_境_boundary, border, region_Boundary – Situation_2_J5
 1340_墓_grave, tomb_Grave_1_J5
 1223_増_increase, add, augment, gain, promote_Increase_3_J5
@@ -716,7 +716,7 @@ export let kanjiDic = `2_一_one_One_5_J1
 1122_敵_enemy, foe, opponent_Enemy_1_J5
 849_断_severance, decline, refuse, apologize, warn, dismiss, prohibit, decision, judgement, cutting_Cut off, refuse – Decide, resolve_3_J5
 771_旧_old times, old things, old friend, former, ex-_Former, old_2_J5
-443_易_easy, fortune-telling, ready to, simple, divination_Easy – Exchange – Fortune-Telling _3_J5
+443_易_easy, fortune-telling, ready to, simple, divination_Easy – Exchange – Fortune-Telling_3_J5
 1346_暴_outburst, rave, fret, force, violence, cruelty, outrage_Violent – Disclose, lay bare_2_J5
 119_条_article, clause, item, stripe, streak_Article, section, clause, strip_2_J5
 965_枝_bough, branch, twig, limb_Branch_2_J5
@@ -733,7 +733,7 @@ export let kanjiDic = `2_一_one_One_5_J1
 1426_混_mix, blend, confuse_Mix, mixed up_2_J5
 1148_減_dwindle, decrease, reduce, decline, curtail, get hungry_Decrease, subtract_2_J5
 627_測_fathom, plan, scheme, measure_Measure, gauge – Conjecture, estimate_2_J5
-714_準_semi-, correspond to, proportionate to, conform, imitate_Standard, level – Quasi- _2_J5
+714_準_semi-, correspond to, proportionate to, conform, imitate_Standard, level – Quasi-_2_J5
 914_演_performance, act, play, render, stage_Perform_3_J5
 1570_潔_undefiled, pure, clean, righteous, gallant_Immaculate_1_J5
 1979_災_disaster, calamity, woe, curse, evil_Natural Calamity_1_J5
@@ -2087,7 +2087,7 @@ export let kanjiDic = `2_一_one_One_5_J1
 593_靴_shoes_Shoes_3_JH
 662_韓_Korea_(South) Korea_0_JH
 1594_韻_rhyme, elegance, tone_Rhyme, melodious tone_1_JH
-1297_響_echo, sound, resound, ring, vibrate _Reverberate_1_JH
+1297_響_echo, sound, resound, ring, vibrate_Reverberate_1_JH
 1916_頃_time, about, toward_Time – About_0_JH
 1915_項_paragraph, nape of neck, clause, item, term (expression)_Clause_1_JH
 1928_須_ought, by all means, necessarily_Must, absolutely necessary_1_JH
@@ -2306,4 +2306,4 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_矮_low, short_---_0_JX
 ---_冴_be clear, serene, cold, skilful_---_1_JMY
 ---_晦_dark, disappear_---_0_JMY
----_秤_balances, scales, steelyard_---_0_JMY`
+---_秤_balances, scales, steelyard_---_0_JMY`;

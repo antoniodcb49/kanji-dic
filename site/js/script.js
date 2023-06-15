@@ -1,4 +1,5 @@
 import { kanjiDic } from './KanjiDic.js';
+import { ajaxUtils } from './ajax-utils.js';
 
 let kanjiDictionary = kanjiDic.split('\n');
 
@@ -7,17 +8,16 @@ export function getDefinitions (japaneseWord) {
     japaneseWord = japaneseWord.trim();
 
     for (let entry of kanjiDictionary) {
-        let entryArray = entry.split('_');
-
-        for (let char in japaneseWord) {
-            if (japaneseWord.at(char) == entryArray[1]) {
-                definitions.push(entryArray);
+        //It will ignore any duplicated kanji
+        for (let char of japaneseWord) {
+            if(entry.includes(char) && definitions.indexOf(entry) == -1) {
+                definitions.push(entry);
             }
         }
 
         definitions.sort((a, b) => {
-            let aIndex = japaneseWord.indexOf(a[1]);
-            let bIndex = japaneseWord.indexOf(b[1]);
+            let aIndex = japaneseWord.indexOf(a.split('_')[1]);
+            let bIndex = japaneseWord.indexOf(b.split('_')[1]);
             return aIndex - bIndex;
         })
     }
@@ -29,14 +29,18 @@ let defEntries = ["Kodansha Entry: ", "Kanji: ", "Jisho.org: ",
 
 export function printDefinitions (japaneseWord) {
     //Array of valid definitions
+    //definitions = array, entries separated by '_'
     let definitions = getDefinitions(japaneseWord);
     let search_results = document.getElementById('search_results');
 
     if (definitions != null) {
-        for (let def in definitions) {
-            for (let index in definitions[def]) {
-                search_results.innerHTML += 
-                    defEntries[index] + definitions[def][index] + '<br>';
+        if (search_results.innerHTML != "")
+            search_results.innerHTML += '<br>';
+
+        for (let definition of definitions) {
+            let currentDefinition = definition.split('_');
+            for (let i = 0; i < defEntries.length; i++) {
+                search_results.innerHTML += defEntries[i] + currentDefinition[i] + '<br>';
             }
             search_results.innerHTML += '<br>';
         }
@@ -49,7 +53,7 @@ export function printDefinitions (japaneseWord) {
         search_results.innerHTML += '<br>';
     }
     else
-        search_results.innerHTML = "NOT FOUND";
+        search_results.innerHTML = "NOT FOUND"; 
 }
 
 document.getElementById('search').addEventListener('keypress', function(event) {
@@ -64,4 +68,9 @@ document.getElementById('search-btn').addEventListener('click', function() {
 
 document.getElementById('clear-btn').addEventListener('click', function() {
     document.getElementById("search_results").innerHTML = "";
+    let jmkanji = document.getElementById("jmkanji");
+    ajaxUtils.sendGetRequest('./dictionary/kanji_bank_1.json', function(response) {
+        let kanji_bank_1 = JSON.stringify(response, null, 4);
+        jmkanji.innerHTML = kanji_bank_1;
+    }, true);
 })
