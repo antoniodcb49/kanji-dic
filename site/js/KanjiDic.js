@@ -2306,4 +2306,9 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_矮_low, short_---_0_JX
 ---_冴_be clear, serene, cold, skilful_---_1_JMY
 ---_晦_dark, disappear_---_0_JMY
----_秤_balances, scales, steelyard_---_0_JMY`;
+---_秤_balances, scales, steelyard_---_0_JMY
+---_囃_play (music), accompany, beat time, banter, jeer, applaud_---_0_JX
+---_斐_beautiful, patterned_---_0_JMY
+---_捲_roll, wind, coil, turn pages, roll up sleeves, strip off, be turned, be rolled up_---_0_JMY
+---_綾_design, figured cloth, twill_---_0_JMY
+---_鞭_whip, rod, counter for whippings_---_0_JMY`;
