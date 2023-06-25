@@ -2310,5 +2310,19 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_囃_play (music), accompany, beat time, banter, jeer, applaud_---_0_JX
 ---_斐_beautiful, patterned_---_0_JMY
 ---_捲_roll, wind, coil, turn pages, roll up sleeves, strip off, be turned, be rolled up_---_0_JMY
----_綾_design, figured cloth, twill_---_0_JMY
----_鞭_whip, rod, counter for whippings_---_0_JMY`;
+---_綾_design, figured cloth, twill_---_1_JMY
+---_鞭_whip, rod, counter for whippings_---_0_JMY
+---_辿_follow (road), pursue_---_0_JMY
+---_儚_fleeting, fickle_---_0_JX
+---_遥_far off, distant, long ago_---_1_JMY
+---_褪_fade, discolour_---_0_JX
+---_滲_imbued with_---_0_JX
+---_嶺_peak, summit_---_1_JMY
+---_煌_glitter, gleam, twinkle_---_0_JMY
+---_怯_cowardice, wince, flinch, hesitate, waver_---_0_JX
+---_慟_be sad, grieve_---_0_JX
+---_哭_weep, moan, wail_---_0_JX
+---_餐_eat, drink, swallow_---_0_JX
+---_眷_look around, regard affectionately_---_0_JX
+---_浚_dredge, drag, clean_---_0_JX
+---_駿_a good horse, speed, a fast person_---_1_JMY`;
