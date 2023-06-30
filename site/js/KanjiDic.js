@@ -2325,4 +2325,8 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_餐_eat, drink, swallow_---_0_JX
 ---_眷_look around, regard affectionately_---_0_JX
 ---_浚_dredge, drag, clean_---_0_JX
----_駿_a good horse, speed, a fast person_---_1_JMY`;
+---_駿_a good horse, speed, a fast person_---_1_JMY
+---_錆_rust, tarnish_---_0_JMY
+---_廻_round, game, revolve, go around, circumference_---_0_JMY
+---_吝_miserly, stingy, sparing_---_0_JX
+---_昂_rise_---_1_JMY`;
