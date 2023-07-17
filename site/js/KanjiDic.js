@@ -2329,4 +2329,10 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_錆_rust, tarnish_---_0_JMY
 ---_廻_round, game, revolve, go around, circumference_---_0_JMY
 ---_吝_miserly, stingy, sparing_---_0_JX
----_昂_rise_---_1_JMY`;
+---_昂_rise_---_1_JMY
+---_矜_pride, respect_---_0_JX
+---_掻_scratch, rake, comb, paddle, behead_---_0_JX
+---_轍_rut, wheel track_---_0_JX
+---_鋪_shop, store_---_0_JX
+---_憑_depend, rely, evidence, proof, according to, possess, haunt_---_0_JX
+---_憐_pity, have mercy, sympathise, compassion_---_0_JMY`;
