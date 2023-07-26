@@ -2335,4 +2335,17 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_轍_rut, wheel track_---_0_JX
 ---_鋪_shop, store_---_0_JX
 ---_憑_depend, rely, evidence, proof, according to, possess, haunt_---_0_JX
----_憐_pity, have mercy, sympathise, compassion_---_0_JMY`;
+---_憐_pity, have mercy, sympathise, compassion_---_0_JMY
+---_綺_figured cloth, beautiful_---_1_JMY
+---_灼_miraculous_---_0_JMY
+---_醇_pure sake, purity, affection_---_0_JMY
+---_宥_soothe, calm, pacify_---_1_JMY
+---_誂_order_---_0_JX
+---_跨_be, sit or stand astride, extend over, straddle_---_0_JMY
+---_炙_roast, broil, toast, cauterize_---_0_JX
+---_贔_strength, power_---_0_JX
+---_屓_exerting strength_---_0_JX
+---_疚_ashamed, painful, guilty conscience_---_0_JX
+---_凋_wither, droop, lame_---_0_JX
+---_腑_viscera, bowels_---_0_JX
+---_棲_live, dwell_---_0_JMY`;
