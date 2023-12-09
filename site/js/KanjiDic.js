@@ -2348,4 +2348,12 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_疚_ashamed, painful, guilty conscience_---_0_JX
 ---_凋_wither, droop, lame_---_0_JX
 ---_腑_viscera, bowels_---_0_JX
----_棲_live, dwell_---_0_JMY`;
+---_棲_live, dwell_---_0_JMY
+---_鱗_scales (fish)_---_0_JMY
+---_藪_thicket, bush, underbrush, grove_---_0_JX
+---_悴_becoming emaciated, son_---_0_JX
+---_謂_reason, origin, history, oral tradition_---_0_JMY
+---_綯_twist, make rope_---_0_JX
+---_祓_exorcise_---_0_JX
+---_彗_comet_---_1_JMY
+---_仄_be seen dimly, suggest, intimate, faint, stupid, hint_---_0_JX`;
