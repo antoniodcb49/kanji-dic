@@ -2356,4 +2356,12 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_綯_twist, make rope_---_0_JX
 ---_祓_exorcise_---_0_JX
 ---_彗_comet_---_1_JMY
----_仄_be seen dimly, suggest, intimate, faint, stupid, hint_---_0_JX`;
+---_仄_be seen dimly, suggest, intimate, faint, stupid, hint_---_0_JX
+---_贖_redeem_---_0_JX
+---_蹌_move, stagger_---_0_JX
+---_踉_stagger, falter_---_0_JX
+---_凌_endure, keep (rain)out, stave off, tide over, defy, slight, surpass_---_1_JMY
+---_謔_sport with_---_0_JX
+---_堵_fence, railing, enclosure_---_0_JMY
+---_悶_be in agony, worry_---_0_JX
+---_昏_dark, evening, dusk_---_0_JMY`;
