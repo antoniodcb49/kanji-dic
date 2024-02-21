@@ -2364,4 +2364,9 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_謔_sport with_---_0_JX
 ---_堵_fence, railing, enclosure_---_0_JMY
 ---_悶_be in agony, worry_---_0_JX
----_昏_dark, evening, dusk_---_0_JMY`;
+---_昏_dark, evening, dusk_---_0_JMY
+---_蔭_shade, shadow, backing assistance_---_0_JMY
+---_炸_frying, explosion_---_0_JX
+---_煽_fan, flap, instigate, agitate, bolster up, gulp down_---_0_JX
+---_愈_be superior, heal, more and more, increasingly, finally, beyond doubt_---_0_JX
+---_晒_bleach, refine, expose, air_---_0_JMY`;
