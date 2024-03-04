@@ -2369,4 +2369,14 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_炸_frying, explosion_---_0_JX
 ---_煽_fan, flap, instigate, agitate, bolster up, gulp down_---_0_JX
 ---_愈_be superior, heal, more and more, increasingly, finally, beyond doubt_---_0_JX
----_晒_bleach, refine, expose, air_---_0_JMY`;
+---_晒_bleach, refine, expose, air_---_0_JMY
+---_翳_hold aloft_---_0_JMY
+---_狼_wolf_---_0_JMY
+---_狽_wolf, be flurried_---_0_JX
+---_嗾_sic'em, egg on, instigate_---_0_JX
+---_嘶_neigh, whinny_---_0_JX
+---_縋_cling, hang on, depend_---_0_JX
+---_嬲_sport with, ridicule, tease_---_0_JX
+---_笹_bamboo grass, (kokuji)_---_1_JMY
+---_噯_interjection, exclamation, breathe_---_0_JX
+---_蝉_cicada_---_0_JX`;
