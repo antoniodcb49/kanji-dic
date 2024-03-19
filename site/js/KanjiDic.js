@@ -2379,4 +2379,10 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_嬲_sport with, ridicule, tease_---_0_JX
 ---_笹_bamboo grass, (kokuji)_---_1_JMY
 ---_噯_interjection, exclamation, breathe_---_0_JX
----_蝉_cicada_---_0_JX`;
+---_蝉_cicada_---_0_JX
+---_攫_abduct_---_0_JX
+---_焉_how, why, then_---_0_JX
+---_播_plant, sow_---_0_JMY
+---_纏_wear, wrap, tie, follow around, collect_---_0_JMY
+---_琉_precious stone, gem, lapis lazuli_---_1_JMY
+---_埴_clay_---_0_JMY`;
