@@ -2385,4 +2385,10 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_播_plant, sow_---_0_JMY
 ---_纏_wear, wrap, tie, follow around, collect_---_0_JMY
 ---_琉_precious stone, gem, lapis lazuli_---_1_JMY
----_埴_clay_---_0_JMY`;
+---_埴_clay_---_0_JMY
+---_鳶_black kite, fireman, hook_---_0_JMY
+---_誑_cheat, coax_---_0_JX
+---_劫_threat, long ages_---_0_JMY
+---_埒_picket, limits, be settled_---_0_JX
+---_鵺_fabulous night bird, chimera_---_0_JX
+---_滾_flow, boil_---_0_JX`;
