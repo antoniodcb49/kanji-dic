@@ -2391,4 +2391,12 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_劫_threat, long ages_---_0_JMY
 ---_埒_picket, limits, be settled_---_0_JX
 ---_鵺_fabulous night bird, chimera_---_0_JX
----_滾_flow, boil_---_0_JX`;
+---_滾_flow, boil_---_0_JX
+---_汝_you, thou_---_0_JX
+---_躯_body, corpse, tree with rotten core_---_0_JX
+---_掟_law, commandments, regulations_---_0_JX
+---_螺_small, edible, helical fresh-water mollusk_---_0_JMY
+---_斡_go around, rule, administer_---_0_JMY
+---_囀_sing, chirp, warble, chatter_---_0_JX
+---_攘_chase away, steal_---_0_JX
+---_夷_barbarian, savage, Ainu_---_0_JMY`;
