@@ -2399,4 +2399,18 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_斡_go around, rule, administer_---_0_JMY
 ---_囀_sing, chirp, warble, chatter_---_0_JX
 ---_攘_chase away, steal_---_0_JX
----_夷_barbarian, savage, Ainu_---_0_JMY`;
+---_夷_barbarian, savage, Ainu_---_0_JMY
+---_瀕_shore, brink, verge_---_0_JMY
+---_爛_be sore, inflamed, bleary, fester_---_0_JX
+---_齧_gnaw, nibble, munch, have a smattering of_---_0_JX
+---_靡_flutter, wave, bow to, obey, seduce_---_0_JX
+---_拱_arch, fold arms_---_0_JX
+---_膠_glue, isinglass_---_0_JX
+---_曰_say, reason, pretext, history, past, flat sun radical (no. 73)_---_0_JX
+---_恙_illness_---_0_JX
+---_撻_whip, flog, strike_---_0_JX
+---_蜘_spider_---_0_JX
+---_蛛_spider_---_0_JX
+---_箏_a koto_---_0_JX
+---_嗜_like, taste, modest_---_0_JX
+---_鋲_rivet, tack, thumbtack, (kokuji)_---_0_JX`;
