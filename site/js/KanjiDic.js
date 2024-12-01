@@ -2413,4 +2413,13 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_蛛_spider_---_0_JX
 ---_箏_a koto_---_0_JX
 ---_嗜_like, taste, modest_---_0_JX
----_鋲_rivet, tack, thumbtack, (kokuji)_---_0_JX`;
+---_鋲_rivet, tack, thumbtack, (kokuji)_---_0_JX
+---_肆_four_---_0_JX
+---_挽_saw, turn (lathe), grind_---_0_JMY
+---_喃_chatter, rattle on_---_0_JX
+---_杭_stake, post, picket_---_0_JMY
+---_耶_question mark_---_1_JMY
+---_渚_strand, beach, shore_---_1_JMY
+---_燦_brilliant_---_1_JMY
+---_捥_to bend the wrist, come off, be broken _---_0_JX
+---_凪_lull, calm, (kokuji) _---_1_JMY`;
