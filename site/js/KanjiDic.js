@@ -1106,7 +1106,7 @@ export let kanjiDic = `2_一_one_One_5_J1
 2037_励_encourage, be diligent, inspire_Work Hard, urge on_1_JH
 2160_劾_censure, criminal investigation_Expose Crimes_1_JH
 2036_勃_suddenness, rise_Suddenly Rising_0_JH
-1108_勅_imperial order_Imperal DecreeImperal Decree_1_JH
+1108_勅_imperial order_Imperal Decree_1_JH
 1799_勘_intuition, perception_Check, consider – Intuitive Perception_1_JH
 1341_募_recruit, campaign, gather (contributions), enlist, grow violent_Raise, collect_2_JH
 1129_勧_persuade, recommend, advise, encourage, offer_Urge, promote_1_JH
@@ -2202,7 +2202,7 @@ export let kanjiDic = `2_一_one_One_5_J1
 217_猪_boar_Wild Boar_1_JMY
 202_瓜_melon_Melon, gourd_0_JMY
 731_碗_porcelain bowl, tea cup_Bowl, cup_0_JMY
-472_磯_rock, beach, shore_Rocky Beach_0_JMY
+472_磯_seashore, beach_Rocky Beach_0_JMY
 1068_稀_rare, phenomenal, dilute (acid)_Rare_1_JMY
 1900_窪_depression, cave in, sink, become hollow_Sink, cavity_0_JMY
 411_竿_pole, rod, scale beam, violin neck_Pole_0_JMY
@@ -2271,7 +2271,7 @@ export let kanjiDic = `2_一_one_One_5_J1
 2256_塵_dust, trash, garbage_Dust, trash_0_JX
 1402_壷_jar, pot, hinge knuckle, one's aim_Jar, pot_0_JX
 2170_屏_wall, fence_Fence, folding screen_0_JX
-2273_戌_7-9PM, 11th zodiac sign, dog_(Sign Of) The Dog_0_JX
+2273_戌_sign of the dog, 7-9PM, eleventh sign of Chinese zodiac_(Sign Of) The Dog_0_JX
 1602_掴_catch, seize, grasp, hold, arrest, capture_Grasp, clutch_0_JX
 1724_梱_pack, tie up, bale_Package, bale_0_JX
 551_歪_warp, bend, strained, distort_Distort, strain_0_JX
@@ -2308,13 +2308,12 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_晦_dark, disappear_---_0_JMY
 ---_秤_balances, scales, steelyard_---_0_JMY
 ---_囃_play (music), accompany, beat time, banter, jeer, applaud_---_0_JX
----_斐_beautiful, patterned_---_0_JMY
+---_斐_beautiful, patterned_---_1_JMY
 ---_捲_roll, wind, coil, turn pages, roll up sleeves, strip off, be turned, be rolled up_---_0_JMY
 ---_綾_design, figured cloth, twill_---_1_JMY
 ---_鞭_whip, rod, counter for whippings_---_0_JMY
 ---_辿_follow (road), pursue_---_0_JMY
 ---_儚_fleeting, fickle_---_0_JX
----_遥_far off, distant, long ago_---_1_JMY
 ---_褪_fade, discolour_---_0_JX
 ---_滲_imbued with_---_0_JX
 ---_嶺_peak, summit_---_1_JMY
@@ -2422,4 +2421,12 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_渚_strand, beach, shore_---_1_JMY
 ---_燦_brilliant_---_1_JMY
 ---_捥_to bend the wrist, come off, be broken _---_0_JX
----_凪_lull, calm, (kokuji) _---_1_JMY`;
+---_凪_lull, calm, (kokuji) _---_1_JMY
+---_徘_wander_---_0_JX
+---_徊_wandering_---_0_JX
+---_喘_pant, gasp, breathe hard _---_0_JX
+---_愕_surprised, frightened _---_0_JX
+---_裔_descendant, border _---_0_JX
+---_蒼_blue, pale _---_1_JMY
+---_贄_offering, sacrifice_---_0_JX
+---_淘_select_---_0_JX`;
