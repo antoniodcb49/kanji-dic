@@ -2429,4 +2429,10 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_裔_descendant, border _---_0_JX
 ---_蒼_blue, pale _---_1_JMY
 ---_贄_offering, sacrifice_---_0_JX
----_淘_select_---_0_JX`;
+---_淘_select_---_0_JX
+---_泄_leak_---_0_JX
+---_鱈_codfish, (kokuji)_---_0_JX
+---_逞_sturdy, brawny, bold _---_0_JMY
+---_襖_opaque sliding door _---_0_JMY
+---_蕾_bud (plants, mushrooms not yet opened)_---_0_JMY
+---_讃_praise, title on a picture _---_0_JMY`;
