@@ -2435,4 +2435,16 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_逞_sturdy, brawny, bold _---_0_JMY
 ---_襖_opaque sliding door _---_0_JMY
 ---_蕾_bud (plants, mushrooms not yet opened)_---_0_JMY
----_讃_praise, title on a picture _---_0_JMY`;
+---_讃_praise, title on a picture _---_0_JMY
+---_祠_small shrine_---_0_JX
+---_跪_kneel_---_0_JX
+---_奢_extravagance, luxury _---_0_JX
+---_軋_squeak, creak, grate _---_0_JX
+---_隈_corner, nook, recess _---_0_JMY
+---_屁_fart, passing gas _---_0_JX
+---_埃_dust_---_0_JX
+---_悉_all, entirely, altogether, completely, use up, run out of, exhaust, befriend, serve_---_0_JMY
+---_訣_separation, part, secret_---_0_JMY
+---_獰_bad_---_0_JX
+---_穣_good crops, prosperity, 10**28_---_1_JMY
+---_庇_protect, shield, defend, eaves, canopy, penthouse, visor _---_0_JMY`;
