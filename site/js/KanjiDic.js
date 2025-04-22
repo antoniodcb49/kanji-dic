@@ -2447,4 +2447,13 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_訣_separation, part, secret_---_0_JMY
 ---_獰_bad_---_0_JX
 ---_穣_good crops, prosperity, 10**28_---_1_JMY
----_庇_protect, shield, defend, eaves, canopy, penthouse, visor _---_0_JMY`;
+---_庇_protect, shield, defend, eaves, canopy, penthouse, visor _---_0_JMY
+---_捌_handle, deal with, dispose of, sell, be in demand, be worldly, be frank, be sensible, be sociable, drainage, sale, demand for, eight _---_0_JX
+---_咎_blame, censure, reprimand _---_0_JX
+---_枷_shackles, irons, handcuffs, bonds _---_0_JX
+---_珊_coral, centimeter _---_0_JMY
+---_瑚_ancestral offering receptacle, coral _---_1_JMY
+---_賽_dice, temple visit_---_0_JX
+---_恍_unclear, senile, stupid, joke _---_0_JX
+---_篩_sieve, sift, screen _---_0_JMY
+---_巫_sorcerer, medium, shrine maiden _---_0_JMY`;
