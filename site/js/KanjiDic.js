@@ -2456,4 +2456,12 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_賽_dice, temple visit_---_0_JX
 ---_恍_unclear, senile, stupid, joke _---_0_JX
 ---_篩_sieve, sift, screen _---_0_JMY
----_巫_sorcerer, medium, shrine maiden _---_0_JMY`;
+---_巫_sorcerer, medium, shrine maiden _---_0_JMY
+---_鋒_dagger, sword's point, festival car, float _---_0_JMY
+---_鯉_carp_---_1_JMY
+---_鮭_salmon_---_0_JX
+---_蛙_frog_---_0_JX
+---_桂_Japanese Judas-tree, cinnamon tree _---_1_JMY
+---_轟_roar, thunder, boom resound _---_0_JMY
+---_涛_waves, billows_---_0_JX
+---_痒_itchy_---_0_JX`;
