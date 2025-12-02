@@ -2464,4 +2464,17 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_桂_Japanese Judas-tree, cinnamon tree _---_1_JMY
 ---_轟_roar, thunder, boom resound _---_0_JMY
 ---_涛_waves, billows_---_0_JX
----_痒_itchy_---_0_JX`;
+---_痒_itchy_---_0_JX
+---_遽_fear, agitation, confusion, hurry _---_0_JX
+---_礫_small stones _---_0_JX
+---_渠_ditch, canal, lock _---_0_JX
+---_楓_maple_---_1_JMY
+---_茜_madder, red dye, Turkey red _---_1_JMY
+---_茸_mushroom_---_0_JMY
+---_餞_farewell gift _---_0_JX
+---_笥_lunch box, clothes chest _---_0_JX
+---_孕_become pregnant _---_0_JX
+---_燼_embers_---_0_JX
+---_儘_as it is, because _---_0_JX
+---_脆_brittle, fragile, easy to beat, sentimental, susceptible _---_0_JX
+---_檻_pen, corral, cell, jail _---_0_JX`;
