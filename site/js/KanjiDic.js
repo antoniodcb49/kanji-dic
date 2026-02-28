@@ -2477,4 +2477,13 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_燼_embers_---_0_JX
 ---_儘_as it is, because _---_0_JX
 ---_脆_brittle, fragile, easy to beat, sentimental, susceptible _---_0_JX
----_檻_pen, corral, cell, jail _---_0_JX`;
+---_檻_pen, corral, cell, jail _---_0_JX
+---_嘯_roar, howl, recite emotionally, feign indifference _---_0_JX
+---_囮_decoy, lure, stool pigeon _---_0_JX
+---_楚_whip, cane_---_0_JMY
+---_董_correct_---_0_JMY
+---_巷_fork in road, scene, arena, theater_---_0_JMY
+---_貶_degrade, disparage, belittle, demote_---_0_JX
+---_渾_all, turbidity_---_0_JMY
+---_黎_dark, black, many_---_1_JMY
+---_峻_high, steep_---_1_JMY`;
