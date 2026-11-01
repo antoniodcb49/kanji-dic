@@ -2486,4 +2486,17 @@ export let kanjiDic = `2_一_one_One_5_J1
 ---_貶_degrade, disparage, belittle, demote_---_0_JX
 ---_渾_all, turbidity_---_0_JMY
 ---_黎_dark, black, many_---_1_JMY
----_峻_high, steep_---_1_JMY`;
+---_峻_high, steep_---_1_JMY
+---_訶_scold_---_0_JX
+---_煤_soot, smoke dried_---_0_JMY
+---_辜_sin, crime_---_0_JX
+---_擢_excel in, surpass, pull out, select_---_0_JMY
+---_禄_fief, allowance, pension, grant, happiness_---_1_JMY
+---_魘_have a nightmare_---_0_JX
+---_撓_bend, train, lithe_---_0_JX
+---_袂_sleeve, foot (of hill), edge_---_0_JX
+---_繚_put on, twist around_---_0_JX
+---_肴_accompaniment for drinks_---_0_JMY
+---_鬨_fight, war cry_---_0_JX
+---_傭_employ, hire_---_0_JMY
+---_磋_polish_---_0_JX`;
